@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background: #FAFAF9;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    width: 368px;
+    height: auto;
+    background: #FFFFFF;
+    border-radius: 30px;
+}
+
+.card .cactus_img{
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 16px;
+    padding-bottom: 20px;
+    width: 100%;
+    border-radius: 30px;
+}
+
+.design-btn{
+    padding: 16px;
+
+    
+}
+
+button{
+    padding: 0.5rem 1rem;
+    font-weight: bold;
+    border-radius: 30px;
+    background: #883ae125;
+    color: #883ae1;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.15s ease-in-out;
+}
+
+button:hover{
+    background-color: #883ae175;
+}
+
+
+
+
+ h1{
+    padding-left: 16px;
+    padding-right: 16px;
+    color: #20293a;
+    padding-bottom: 6px;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 1rem 0 0.625rem;
+    
+}
+
+.card p{
+    text-align: left;
+    padding-bottom: 20px;
+    padding-right: 16px;
+    padding-left: 16px;
+}
+
+
+.author{
+    padding-bottom: 20px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 20px;
+    
+    padding-bottom: 20px;
+
+}

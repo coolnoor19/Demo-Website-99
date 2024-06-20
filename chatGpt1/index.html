@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mouseover Example</title>
+    <style>
+        #hoverDiv {
+            width: 200px;
+            height: 100px;
+            background-color: lightblue;
+            text-align: center;
+            line-height: 100px;
+            margin: 50px;
+            cursor: pointer;
+        }
+
+        #listDiv {
+            display: none;
+            
+            position: absolute;
+            
+            background-color: green;
+            border: 1px solid red;
+            padding: 10px;
+            width: 100%;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+        }
+
+        .lastdiv{
+            display: flex;
+        }
+     
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        li {
+            padding: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <div id="hoverDiv">Hover over me</div>
+    <div id="listDiv" class="lastdiv" >
+
+       
+        <ul>
+            <li>home</li>
+            <li>contact</li>
+            <li>about us</li>
+        </ul>
+        <ul>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+            <li>Item 4</li>
+        </ul>
+       </div>
+    
+
+    <script>
+        document.getElementById('hoverDiv').addEventListener('mouseover', function() {
+            document.getElementById('listDiv').style.display = 'block';
+           
+        });
+
+        document.getElementById('hoverDiv').addEventListener('mouseout', function() {
+            document.getElementById('listDiv').style.display = 'none';
+        });
+    </script>
+</body>
+</html>

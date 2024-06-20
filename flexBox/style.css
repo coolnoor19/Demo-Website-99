@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 500px;
+    height: 500px;
+    background: #800080;
+    display: flex;
+    
+    justify-content: center;
+    align-items: flex-end;
+    
+ 
+    
+}
+
+.container .box{
+    width: 100px;
+    height: 100px;
+    background: green;
+    color: wheat;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
